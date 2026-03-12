@@ -9,3 +9,12 @@ body{
 .produtos{
     margin-top: 40px;
 }
+
+ul{
+    list-style: none;
+}
+
+li{
+    display:inline
+    margin: 20px;
+}

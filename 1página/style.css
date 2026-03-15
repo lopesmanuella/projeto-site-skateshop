@@ -44,6 +44,15 @@ li{
 }
 
 .skate{
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.produto{
+    text-align: center;
+}
+
+.produto img{
+    width: 200px;
 }

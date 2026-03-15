@@ -43,16 +43,47 @@ li{
     text-align: center;
 }
 
-.skate{
+   .skate{
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
+}
+.skate img{
+    width: 200px;
+    border-radius: 8px;
+
 }
 
 .produto{
     text-align: center;
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    background-color: white;
 }
 
-.produto img{
-    width: 200px;
+.produto:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+h1{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.produto p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.skate{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.produto{
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }

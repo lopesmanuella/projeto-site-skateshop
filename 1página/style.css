@@ -42,3 +42,8 @@ li{
     gap: 40px;
     text-align: center;
 }
+
+.skate{
+    display:flex;
+    justify-content:center;
+}
